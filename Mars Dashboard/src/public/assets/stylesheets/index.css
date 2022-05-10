@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Roboto:ital,wght@1,700&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Roboto:ital,wght@1,700&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Oswald:wght@300&family=Roboto:ital,wght@1,700&family=Supermercado+One&display=swap');
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background-color:#F7CAC9;
+}
+.btn {
+  padding: 15px ;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px 0;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #d1c733;
+  border: 2px solid red;
+  border-radius: 3px;
+  color: #0000ff;
+  transition: all 0.3s;
+  border-radius:20px;
+  cursor: pointer;
+  width: 30%;
+}
+
+
+header {
+  text-align: center;
+  background-color: rgb(154, 162, 236);
+  font-weight: bold;
+  padding: 1em;
+  width: 100%;
+}
+h1 {
+  /* header styles */
+  font-family: 'Josefin Sans', sans-serif;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+  
+}
+figCaption {
+  font-family: 'Oswald', sans-serif;
+}
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+button {
+  font-family: 'Oswald', sans-serif;
+  size: 20px;
+}
+strong {
+  font-size: 1.2em;
+  }
+img{
+  width: 80%;
+  height: 80%;
+  }
+  
+.btn:hover {
+    cursor: pointer;
+    background: rgb(30, 206, 236);
+  }
+  
+.btn:active {
+    background: rgb(196, 20, 196);
+  }
+  
+
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+  
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  }
+
+
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+  img {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}

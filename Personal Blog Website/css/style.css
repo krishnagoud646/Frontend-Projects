@@ -1,0 +1,106 @@
+@import"all.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,700&family=Supermercado+One&display=swap');
+@import"cardblog.css";
+@import"mainmenu.css";
+
+ul{
+list-style-type: none;
+}
+.card-pic{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.article-text{
+        width: 30%;
+            float: left;
+            padding: 0px;
+
+}
+.box-card {
+   border: 3px solid #fff;
+             padding: 20px;
+}
+.boxcard {
+  border: 3px solid #fff;
+           padding: 20px;
+}
+.card-pic-cap{
+border: 3px solid #fff;
+           padding: 20px;
+}
+figcaption {
+  display: block;
+}
+
+
+
+.main-Heading{
+    font-size:2em;
+    padding:10px;
+
+}
+.grid{
+display:grid;
+background-color:RGB(0, 155, 119);
+    justify-content:center;
+    align-items:center;
+}
+h1 {
+    width:500px;
+        margin: 0 auto;
+        background: lightblue;
+        text-align: center;
+}
+.card-pic{
+    border-radius:10px;
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+/*mobile screens*/
+@media only screen and (min-width:400px) and (max-width:900px) {
+     .container{
+         display: grid;
+         grid-template-columns: 1fr  ;
+         grid-template-rows: 1fr 1fr;
+         align-items:center;
+       }
+       .page{
+           width:auto;
+           margin:0 auto;
+           }
+           .grid,
+           .navigation-menu{
+               height:100px;
+           }
+    }
+
+/*Desktop Styles*/
+@media only screen and  (min-width:901px){
+    .page{
+    width:auto;
+    margin:0 auto;
+    }
+    .grid,
+    .navigation-menu{
+        height:100px;
+    }
+   .container{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr ;
+     grid-template-rows: 1fr;
+     grid-column-gap: 0px;
+     min-height:calc();
+     padding:5px 0 5px 0;
+     grid-gap:20px;
+
+   }
+
+       }
+
+
+

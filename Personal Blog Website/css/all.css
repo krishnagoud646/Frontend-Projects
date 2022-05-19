@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,700&family=Supermercado+One&display=swap');
+.navigation-menu{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#04AA6D;
+}
+.main-menu{
+width: 150px;
+  padding: 15px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px 0;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #F7CAC9;
+  border: 2px solid red;
+  border-radius: 3px;
+  color: #f6aa1c;
+  transition: all 0.3s;
+  border-radius:20px;
+}
+a{
+    text-decoration:none;
+    color:purple;
+    justify-content:center;
+    align-items:center;
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.footer{
+    background-color:gold;
+    flex direction:column;
+    padding-top:5px;
+    text-align: center;
+}
+.social{
+    padding:5px;
+    display:inline-block;
+    list-style-type:none;
+    width:30px;
+    height:30px;
+}
+.navigation-menu{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#04AA6D;
+}
+.card-pic{
+    width:46%;
+    }
+blockquote {
+      display: block;
+      margin-top: 1.3em;
+      margin-bottom: 1em;
+      margin-left: 200px;
+      margin-right: 200px;
+      background-color: powderblue;
+    }
+.article-text{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+/*Medium screens*/
+@media(min-width:600px)and(max-width:900px){
+.article-text{
+    min-height:calc(100vh-160px);
+}
+.navigation-menu{
+height:80px;
+}
+}
+@media(min-width:901px){
+.article-text{
+    grid-template-columns:repeat(3,1fr);
+    min-height:calc(100vh-200px)
+}
+}
+@media(min-width:320px){
+.article-text{
+    min-height:calc(100vh-160px);
+}
+}

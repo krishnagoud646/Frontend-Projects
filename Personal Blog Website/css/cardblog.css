@@ -1,0 +1,19 @@
+.card-blog {
+  width: 150px;
+  padding: 10px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 15px 0;
+  cursor: pointer;
+  display: inline-block;
+    border-radius:20px;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 3px;
+  color: #f6aa1c;
+  transition: all 0.3s;
+}

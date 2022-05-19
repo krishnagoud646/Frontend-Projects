@@ -1,0 +1,9 @@
+@import "all.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:ital,wght@1,700&family=Supermercado+One&display=swap');
+.card-pic{
+    width:30%;
+}
+.article-text{
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}

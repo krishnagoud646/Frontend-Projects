@@ -16,7 +16,7 @@ Your application must make use of the following libraries:
 
 ## In a terminal tab, create and run the database:
 
-- run `su postgres` to connection for postgres
+- run `su postgres` to connection for postgres**(password:krishna)**
 - run `psql postgres` for connection of sql
 - run `CREATE USER magic_user WITH PASSWORD 'password123';` for creating a new user
 - `CREATE DATABASE stores;` a database for store
